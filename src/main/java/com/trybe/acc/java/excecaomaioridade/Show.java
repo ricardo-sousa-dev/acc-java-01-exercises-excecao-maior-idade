@@ -4,7 +4,7 @@ package com.trybe.acc.java.excecaomaioridade;
 public class Show {
 
   /** Método do desafio. */
-  public boolean permitirEntrada(int idade) {
+  public boolean permitirEntrada(int idade) throws PessoaMenorDeIdadeException {
     try {
       if (idade < 18) {
         throw new PessoaMenorDeIdadeException(idade); // lança exceção
@@ -18,7 +18,7 @@ public class Show {
     return false;
   }
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws PessoaMenorDeIdadeException {
     Show show = new Show(); // instancia a classe
     System.out.println(show.permitirEntrada(17)); // chama o método
   }
@@ -32,3 +32,4 @@ public class Show {
 // https://
 // pt.stackoverflow.com/questions/71670/como-criar-uma-exception-exce%C3%A7%C3%A3o-customizada-em-java
 // https:// www.devmedia.com.br/tratando-excecoes-em-java/25514
+// https://www.devmedia.com.br/checked-exceptions-versus-unchecked-exceptions-trabalhando-com-excecoes/29626
