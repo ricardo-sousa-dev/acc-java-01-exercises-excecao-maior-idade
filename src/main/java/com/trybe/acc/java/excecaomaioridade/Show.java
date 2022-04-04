@@ -24,7 +24,8 @@ public class Show {
 // https:// www.devmedia.com.br/trabalhando-com-excecoes-em-java/27601
 // www.caelum.com.br/apostila-java-orientacao-objetos/
 // excecoes-e-controle-de-erros#exercicio-para-comecar-com-os-conceitos
-// pt.stackoverflow.com/questions/71670/como-criar-uma-exception-exce%C3%A7%C3%A3o-customizada-em-java
+// pt.stackoverflow.com/questions/71670/
+// como-criar-uma-exception-exce%C3%A7%C3%A3o-customizada-em-java
 // https:// www.devmedia.com.br/tratando-excecoes-em-java/25514
 // www.devmedia.com.br/checked-exceptions-
 // versus-unchecked-exceptions-trabalhando-com-excecoes/29626
