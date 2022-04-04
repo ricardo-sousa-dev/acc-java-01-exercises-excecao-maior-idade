@@ -5,6 +5,7 @@ public class Show {
 
   /** Método do desafio. */
   public boolean permitirEntrada(int idade) throws PessoaMenorDeIdadeException {
+
     if (idade < 18) {
       throw new PessoaMenorDeIdadeException(idade); // lança exceção
     } else {
@@ -25,4 +26,5 @@ public class Show {
 // excecoes-e-controle-de-erros#exercicio-para-comecar-com-os-conceitos
 // pt.stackoverflow.com/questions/71670/como-criar-uma-exception-exce%C3%A7%C3%A3o-customizada-em-java
 // https:// www.devmedia.com.br/tratando-excecoes-em-java/25514
-// www.devmedia.com.br/checked-exceptions-versus-unchecked-exceptions-trabalhando-com-excecoes/29626
+// www.devmedia.com.br/checked-exceptions-
+// versus-unchecked-exceptions-trabalhando-com-excecoes/29626
