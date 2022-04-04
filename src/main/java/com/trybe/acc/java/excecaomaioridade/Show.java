@@ -3,19 +3,17 @@ package com.trybe.acc.java.excecaomaioridade;
 /** Classe do desafio. */
 public class Show {
 
-  /** Método do desafio. */
+  /**
+   * Método do desafio.
+   *
+   * @throws PessoaMenorDeIdadeException
+   */
   public boolean permitirEntrada(int idade) throws PessoaMenorDeIdadeException {
-    try {
-      if (idade < 18) {
-        throw new PessoaMenorDeIdadeException(idade); // lança exceção
-      }
+    if (idade < 18) {
+      throw new PessoaMenorDeIdadeException(idade); // lança exceção
+    } else {
       return true;
-
-    } catch (PessoaMenorDeIdadeException e) {
-      System.out.println(e.getMessage());
-      e.printStackTrace(); // printa o caminho onde a excessão foi gerada
     }
-    return false;
   }
 
   public static void main(String[] args) throws PessoaMenorDeIdadeException {
